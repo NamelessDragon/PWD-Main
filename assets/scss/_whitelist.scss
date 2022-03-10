@@ -1,0 +1,119 @@
+// PASSWORD
+// .passster-form {
+// 	padding: 0 !important;
+// }
+// 
+// .passster-form h4 {
+// 	margin: 0 !important;
+// }
+// 
+// .passster-form p {
+// 	margin-bottom: 16px;
+// 	font-size: 16px !important;
+// }
+// 
+// // FIELDSET
+// .passster-form fieldset {
+// 	display: flex;
+// 	position: relative;
+// }
+// 
+// .passster-form input[type=password] {
+// 	border: none;
+// 	border-radius: 4px;
+// 	margin-bottom: 0;
+// 	margin-right: 8px;
+// }
+// 
+// .passster-form input[type=password]:hover {
+// 	border: none;
+// }
+// 
+// .passster-form button[type=submit] {
+// 	width: auto;
+// 	height: 41px;
+// 	margin-bottom: 0;
+// 	border-radius: 4px;
+// 	background-color: $primary !important;
+// 	color: #000 !important;
+// 	font-weight: 700 !important;
+// }
+
+// LOADER
+// .ps-loader {
+// 	position: absolute;
+//     right: 90px;
+//     top: 10px;
+// }
+// 
+// // ERROR
+// .passster-error {
+// 	float: none !important;
+// 	border-radius: 4px;
+// 	position: absolute;
+//     top: 0;
+//     left: 0;
+//     height: 100%;
+// }
+
+
+
+// PASSWORD
+.post-password-form label {
+	margin-top: 16px;
+
+	& input {
+		border: none;
+		height: 42px;
+		border-radius: 4px;
+		box-shadow: none;
+		outline: 0;
+		margin-top: 8px;
+		padding: 0 16px;
+	}
+
+
+}
+
+.post-password-form input[type=submit] {
+	cursor: pointer;
+    width: 70px;
+    height: 41px;
+    margin-top: 10px;
+    border-radius: 4px;
+    background-color: #FBC21B !important;
+    color: #000 !important;
+    font-weight: 700 !important;
+    border: none;
+}
+
+
+
+
+
+// FORMIDABLE
+.page-template-page-whitelist .frm_form_title {
+	display: none;
+}
+
+.with_frm_style .frm_primary_label {
+	color: #fff;
+}
+
+.with_frm_style .frm_form_fields > fieldset {
+	padding: 0 !important;
+}
+
+.with_frm_style input[type=text] {
+	border: none;
+	height: 42px;
+}
+
+.frm_button_submit {
+	margin: 0 !important;
+	border: none !important;
+	box-shadow: none !important;
+	background-color: $primary !important;
+	color: #000 !important;
+	font-weight: 700 !important;
+}

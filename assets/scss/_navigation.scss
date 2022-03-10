@@ -1,0 +1,72 @@
+.navbar {
+
+	// Brand
+	&-item img {
+		max-height: unset;
+	}
+
+	&-logo {
+		width: 50%;
+	}
+
+	// Item
+	&-item a {
+		display: block;
+		color: inherit;
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+
+	// Sep
+	&-sep {
+		cursor: default;
+		color: #fff;
+		opacity: 0.2;
+	}
+}//navbar
+
+@media screen and (min-width: 1024px) {
+	.navbar-brand {
+		width: 118px;
+	}
+}
+
+.navbar-start--centered {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.current-menu-item a {
+	font-weight: 700;
+	color: $primary !important;
+}
+
+
+
+// MOBILE NAV
+@media screen and (max-width: 1023px) {
+	.navbar {
+
+		&-menu {
+			background-color: $box-background-color;
+			border-bottom: 1px solid;
+			border-color: $box-border-color;
+		}
+
+		&-item a {
+			color: #fff;
+		}
+
+		&-sep {
+			display: none;
+		}
+
+		&-end {
+			display: flex;
+			margin: 8px 16px;
+			border: 1px solid;
+			border-color: $box-border-color;
+		}
+
+	}
+}
