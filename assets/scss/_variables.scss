@@ -1,0 +1,42 @@
+// INITIAL VARIABLES
+$grey-darker: #02030A;
+$grey-dark: #150029; //color from figma
+$grey: #0C0E28;
+$grey-light: #141526;
+$grey-lighter: #212232;
+$grey-lightest: #1E204A;
+
+$yellow: #FBC21B;
+
+
+$primary: $yellow;
+
+$accent: #946FFF;
+
+
+
+// *** GLOBALS ***
+$body-background-color: #08091B;
+$body-family: 'Saira', sans-serif;
+$body-color: #fff;
+
+// $body-font-size: 14px;
+
+
+// *** NAVBAR ***
+$navbar-height: 4rem;
+
+// *** ELEMENTS ***
+
+	// BOX
+	$box-color: #fff;
+	$box-background-color: #0B0D31;
+	$box-border-color: #0B116D;
+
+	// TITLE
+	$title-color: $primary;
+	$title-family: 'Saira Extra Condensed', sans-serif;
+	$title-weight: 900;
+
+	$subtitle-color: #fff;
+	$subtitle-family: 'Saira Extra Condensed', sans-serif;

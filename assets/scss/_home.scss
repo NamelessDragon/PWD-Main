@@ -1,0 +1,58 @@
+// TITLE INTRO
+.title-intro {
+	font-size: 42px;
+	line-height: 40px;
+
+	span {
+		font-size: 61px;
+	}
+}
+
+.subtitle-intro {
+	font-size: 24.5px;
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+	.title-intro {
+		font-size: 53px;
+		line-height: 50px;
+	
+		span {
+			font-size: 84px;
+		}
+	}
+
+	.subtitle-intro {
+		font-size: 31px;
+	}
+}
+
+
+// FEATURES
+.section-features {
+	background-image: url('./assets/img/section-features-bg.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+
+@media screen and (min-width: 1024px) {
+	.title-intro {
+		font-size: 58px;
+		line-height: 50px;
+	
+		span {
+			font-size: 84px;
+		}
+	}
+
+	.subtitle-intro {
+		font-size: 34px;
+	}
+}
+
+
+// FAQ
+.section-faq .accordion li:first-child .accordion-content {
+	display: block;
+}

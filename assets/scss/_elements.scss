@@ -1,0 +1,32 @@
+// CONTAINER
+.main .container {
+	padding: 3rem 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+	.main .container {
+		padding: 3rem 0;
+	}
+}
+
+
+
+// BUTTONS
+.button {
+	font-weight: 600;
+}
+
+// Discord Button
+.button.is-discord {
+	background-color: #7437FF;
+	border-color: transparent;
+	color: #fff;
+}
+
+// BOX
+.box {
+	overflow: hidden;
+	position: relative;
+	border: 1px solid;
+	border-color: $box-border-color;
+}

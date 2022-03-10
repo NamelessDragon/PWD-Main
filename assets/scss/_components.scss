@@ -1,0 +1,38 @@
+// ACCORDION
+.accordion {
+	max-width: 700px;
+	margin: 0 auto;
+	list-style: none;
+	padding: 0;
+
+	// Title
+	&-title {
+		cursor: pointer;
+		padding: 16px;
+		font-size: 22px;
+		font-weight: 600;
+	}
+
+	// Content
+	&-content {
+		overflow: hidden;
+		display: none;
+		padding: 16px;
+		padding-top: 0;
+	  }
+}
+
+@media screen and (max-width: 500px) {
+	.accordion-title {
+		font-size: 18px;
+	}
+}
+
+
+
+
+
+.owl-nav {
+	margin-top: 20px !important;
+	text-align: center;
+}
