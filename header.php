@@ -24,7 +24,7 @@
 <body <?php body_class( 'has-navbar-fixed-top' ); ?>>
 <?php wp_body_open(); ?>
 
-	<div class="app">
+	<div class="app test">
 		
 		<nav class="navbar is-fixed-top is-dark" aria-label="main navigation">
 			<div class="container">
