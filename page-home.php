@@ -100,7 +100,7 @@ get_header();
 				</div><!--owl-carousel-->
 
 				<div class="slider_nav">
-					<button class="am-prev button is-outlined is-primary">
+					<button class="am-prev button is-outlined is-primary mr-3">
 						<i class="fa-solid fa-long-arrow-left"></i>
 					</button>
 					<button class="am-next button is-outlined is-primary">
