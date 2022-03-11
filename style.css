@@ -5493,6 +5493,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   #form_whitelistsubmissionsearchform .frm_fields_container .frm_submit {
     margin-top: auto; }
 
+.with_frm_style input[type=text] {
+  height: 37.5px !important; }
+
 .whitelist-checkmark {
   background-color: #3bffe2;
   color: #000;
