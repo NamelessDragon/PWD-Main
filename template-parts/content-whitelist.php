@@ -17,6 +17,11 @@
   		<div class="column is-half-desktop">
 
 			<div class="box">
+				<h3 class="title is-3 is-uppercase mb-3">Check if you are whitelisted</h3>
+				<?php echo FrmViewsDisplaysController::get_shortcode( array( 'id' => 170 ) ); ?>
+			</div>
+
+			<div class="box">
 			<?php
 				the_content();
 				
