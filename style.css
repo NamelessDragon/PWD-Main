@@ -5485,6 +5485,14 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   color: #000 !important;
   font-weight: 700 !important; }
 
+#form_whitelistsubmissionsearchform .frm_fields_container {
+  display: flex; }
+  #form_whitelistsubmissionsearchform .frm_fields_container .frm_form_field {
+    flex: 100 !important;
+    margin-bottom: 0 !important; }
+  #form_whitelistsubmissionsearchform .frm_fields_container .frm_submit {
+    margin-top: auto; }
+
 .whitelist-checkmark {
   background-color: #3bffe2;
   color: #000;
@@ -5492,6 +5500,11 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   padding: 10px 16px;
   border-radius: 5px;
   box-shadow: 0px 0px 14px 0px #3bffe2; }
+
+.whitelist-checkmark.is-not-wl {
+  background-color: #a52a45;
+  box-shadow: 0px 0px 14px 0px #a52a45;
+  color: #fff; }
 
 .app-footer {
   background-color: #000; }

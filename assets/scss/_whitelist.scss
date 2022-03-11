@@ -121,6 +121,22 @@
 
 
 // WHITELIST CHECK
+
+#form_whitelistsubmissionsearchform .frm_fields_container {
+	display: flex;
+
+	.frm_form_field {
+		flex: 100 !important;
+		margin-bottom: 0 !important;
+	}
+
+	.frm_submit {
+		margin-top: auto;
+	}
+}
+
+
+
 .whitelist-checkmark {
 	background-color: #3bffe2;
     color: #000;
@@ -128,4 +144,10 @@
     padding: 10px 16px;
     border-radius: 5px;
     box-shadow: 0px 0px 14px 0px rgba(59,255,226,1);
+}
+
+.whitelist-checkmark.is-not-wl {
+	background-color: #a52a45;
+	box-shadow: 0px 0px 14px 0px #a52a45;
+	color: #fff;
 }
