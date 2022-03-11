@@ -22,6 +22,8 @@
 			</div>
 
 			<div class="box">
+				<h3 class="title is-3 is-uppercase mb-3">Join Whitelist</h3>
+				
 			<?php
 				the_content();
 				
