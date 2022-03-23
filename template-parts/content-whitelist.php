@@ -36,15 +36,14 @@
 			?>
 			</div>
 
-			<div class="box">
+			<!-- <div class="box">
 				<h3 class="title is-3 is-uppercase mb-3"><?php echo $dragon_settings->display( 'whitelist_info_box_title' ); ?></h3>
 				<?php echo $dragon_settings->display( 'whitelist_info_box_instructions' ); ?>
-				<!-- <p></p> -->
 				<a href="<?php echo $dragon_settings->display( 'whitelist_info_box_invite_url' ); ?>" class="button is-discord mt-4" target="_blank">
 					<i class="fa-brands fa-discord mr-2"></i>	
 					Join Discord
 				</a>
-			</div>
+			</div> -->
 			
 			<?php if ( get_edit_post_link() ) : ?>
 				<footer class="entry-footer">
