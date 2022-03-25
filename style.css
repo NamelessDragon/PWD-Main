@@ -5515,5 +5515,8 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-size: cover;
   background-repeat: no-repeat; }
 
+.marketplace-logo {
+  width: 50px; }
+
 .app-footer {
   background-color: #000; }
